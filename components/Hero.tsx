@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="flex flex-col md:flex-row justify-between items-center w-full h-full">
             {/* Text content */}
             <div className="text-white text-left mb-4 md:mb-0 md:w-1/2 p-6 lg:px-24">
-              <div className="text-4xl xl:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary lg:text-5xl">
+              <div className="text-4xl xl:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary lg:text-5xl pt-20 lg:pt-0">
                 Visualised: Features of the Jokowi era
               </div>
 

@@ -1,3 +1,4 @@
+import BackToTopButton from "@/components/BacktoTopButton";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head"; // Import the Head component
@@ -11,6 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Component {...pageProps} />
       {/* Add back to top here */}
+      <BackToTopButton />
     </>
   );
 }
