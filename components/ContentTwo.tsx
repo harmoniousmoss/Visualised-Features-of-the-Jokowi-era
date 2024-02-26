@@ -1,6 +1,14 @@
 import React, { useEffect } from "react";
+import AOS from "aos";
 
 export default function ContentTwo() {
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      duration: 700, // values from 0 to 3000, with step 50ms
+    });
+  }, []);
+
   useEffect(() => {
     const handleResizeMessage = (event: MessageEvent) => {
       if (
@@ -29,7 +37,7 @@ export default function ContentTwo() {
   return (
     <div className="bg-slate-50">
       <div className="py-10 px-6 lg:px-24">
-        <div className="chart-box">
+        <div className="chart-box" data-aos="fade-up">
           <div className="w-full md:w-4/12 px-4">
             <p className="chart-content">
               Businesses are still impeded by mounting non-tariff barriers to

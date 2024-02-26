@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
+import AOS from "aos";
 
 export default function Hero() {
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      duration: 700, // values from 0 to 3000, with step 50ms
+    });
+  }, []);
   return (
     <div>
       <div className="relative" style={{ height: "calc(100vh - 64px)" }}>
@@ -21,7 +28,10 @@ export default function Hero() {
         <div className="relative z-20 flex justify-center items-center h-full">
           <div className="flex flex-col md:flex-row justify-between items-center w-full h-full">
             {/* Text content */}
-            <div className="text-white text-left mb-4 md:mb-0 md:w-1/2 p-6 lg:px-24">
+            <div
+              className="text-white text-left mb-4 md:mb-0 md:w-1/2 p-6 lg:px-24"
+              data-aos="fade-right"
+            >
               <div className="text-4xl xl:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary lg:text-5xl pt-20 lg:pt-0">
                 Visualised: Features of the Jokowi era
               </div>
@@ -55,7 +65,7 @@ export default function Hero() {
               </button>
             </div>
             {/* Image aligned to the bottom right */}
-            <div className="relative md:w-1/2 h-full">
+            <div className="relative md:w-1/2 h-full" data-aos="fade-left">
               <div className="absolute bottom-0 right-0 max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-xl">
                 {" "}
                 {/* Adjusted for 2xl screens */}

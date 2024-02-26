@@ -2,6 +2,7 @@ import BackToTopButton from "@/components/BacktoTopButton";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head"; // Import the Head component
+import "aos/dist/aos.css"; // Import the CSS for AOS
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
