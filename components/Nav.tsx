@@ -4,7 +4,7 @@ import { AiOutlineHome } from "react-icons/ai";
 
 export default function Nav() {
   return (
-    <nav className="bg-slate-900 flex justify-between items-center sticky top-0 z-50 w-full">
+    <nav className="bg-slate-900 flex justify-between items-center sticky top-0 z-40 w-full">
       <div className="lg:px-24 py-2 pl-6">
         <Image
           src="/logo_prospera.png"
