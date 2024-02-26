@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div>
       <nav className="bg-slate-900 flex justify-between items-center">
-        <div className="px-24 py-2">
+        <div className="lg:px-24 py-2 pl-6">
           <Image
             src="/logo_prospera.png"
             alt="Prospera Logo"
@@ -14,8 +14,8 @@ export default function Hero() {
             height={64}
           />
         </div>
-        <div className="px-24 py-2">
-          <button className="flex items-center bg-white rounded-full px-2 py-1.5">
+        <div className="lg:px-24 lg:py-2 pr-6">
+          <button className="flex items-center bg-white rounded-full px-3 py-2">
             <AiOutlineHome className="h-5 w-5 text-slate-900" />
             <span className="ml-2 text-slate-900 text-sm">Home</span>
           </button>
@@ -38,11 +38,12 @@ export default function Hero() {
         <div className="relative z-20 flex justify-center items-center h-full">
           <div className="flex flex-col md:flex-row justify-between items-center w-full h-full">
             {/* Text content */}
-            <div className="text-white text-left mb-4 md:mb-0 md:w-1/2 px-24">
-              <h2 className="text-5xl font-bold mb-4">
+            <div className="text-white text-left mb-4 md:mb-0 md:w-1/2 p-6 lg:px-24">
+              <div className="text-4xl xl:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary lg:text-5xl">
                 Visualised: Features of the Jokowi era
-              </h2>
-              <p className="text-lg mb-4">
+              </div>
+
+              <p className="text-base xl:text-lg mb-4 ">
                 How will history reflect on President Joko Widodo’s
                 administration? This month we look at some features of the two
                 distinct terms of the Jokowi era: the infrastructure focus of
@@ -72,7 +73,9 @@ export default function Hero() {
             </div>
             {/* Image aligned to the bottom right */}
             <div className="relative md:w-1/2 h-full">
-              <div className="absolute bottom-0 right-0 max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg">
+              <div className="absolute bottom-0 right-0 max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-xl">
+                {" "}
+                {/* Adjusted for 2xl screens */}
                 <Image
                   src="/jokowi_pensive_red-removebg.png"
                   alt="Jokowi"
