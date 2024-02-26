@@ -36,4 +36,13 @@ html {
     font-weight: revert;
     cursor: revert;
   }
+
+  /* Added rules for chart content */
+  .chart-content {
+    @apply mb-3 lg:mb-0 font-semibold text-lg;
+  }
+
+  .chart-box {
+    @apply flex flex-wrap bg-white rounded-lg lg:p-12 p-6 2xl:p-16;
+  }
 }

@@ -30,12 +30,12 @@ export default function ContentOne() {
 
   return (
     <div className="bg-slate-50">
-      <div className="container mx-auto py-6 px-4">
+      <div className="py-10 px-6 lg:px-24">
         {/* Background Wrapper */}
-        <div className="flex flex-wrap -mx-4 bg-white p-6 rounded-lg">
+        <div className="chart-box">
           {/* Left Column */}
           <div className="w-full md:w-4/12 px-4">
-            <p>
+            <p className="chart-content">
               In the first term, fiscal space was created through the adoption
               of fuel prices that reflected market levels which helped finance
               infrastructure spending greater than during the final term of

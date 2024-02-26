@@ -28,10 +28,10 @@ export default function ContentThree() {
 
   return (
     <div className="bg-slate-50">
-      <div className="container mx-auto py-6 px-4">
-        <div className="flex flex-wrap -mx-4 bg-white p-6 rounded-lg">
+      <div className="py-10 px-6 lg:px-24">
+        <div className="chart-box">
           <div className="w-full md:w-4/12 px-4">
-            <p>
+            <p className="chart-content">
               Fuel price adjustments were unable to be sustained and proved an
               ongoing issue through both Jokowi terms.
             </p>

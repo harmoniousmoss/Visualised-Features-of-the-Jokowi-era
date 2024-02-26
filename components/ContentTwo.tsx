@@ -28,10 +28,10 @@ export default function ContentTwo() {
 
   return (
     <div className="bg-slate-50">
-      <div className="container mx-auto py-6 px-4">
-        <div className="flex flex-wrap -mx-4 bg-white p-6 rounded-lg">
+      <div className="py-10 px-6 lg:px-24">
+        <div className="chart-box">
           <div className="w-full md:w-4/12 px-4">
-            <p>
+            <p className="chart-content">
               Businesses are still impeded by mounting non-tariff barriers to
               trade and investment, placing Indonesia at a major disadvantage.
             </p>
