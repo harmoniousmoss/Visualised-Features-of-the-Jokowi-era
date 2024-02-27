@@ -40,8 +40,9 @@ export default function ContentTwo() {
         <div className="chart-box" data-aos="fade-up">
           <div className="w-full md:w-4/12 px-4">
             <p className="chart-content">
-              Businesses are still impeded by mounting non-tariff barriers to
-              trade and investment, placing Indonesia at a major disadvantage.
+              Infrastructure investment was a success though with a more modest
+              than desirable GDP payoff owing, at least in part, to stubbornly
+              poor quality of investment.
             </p>
           </div>
           <div className="w-full md:w-8/12 px-4">

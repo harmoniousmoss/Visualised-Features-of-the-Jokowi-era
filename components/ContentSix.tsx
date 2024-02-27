@@ -40,8 +40,8 @@ export default function ContentSix() {
         <div className="chart-box" data-aos="fade-up">
           <div className="w-full md:w-4/12 px-4">
             <p className="chart-content">
-              The second term focused on the challenges facing businesses and
-              the enactment of the Job Creation Law was a major milestone.
+              The pandemic crisis showed Indonesian policymakers at their best.
+              Defining the challenge and adopting the needed scope for action.
             </p>
           </div>
           <div className="w-full md:w-8/12 px-4">
