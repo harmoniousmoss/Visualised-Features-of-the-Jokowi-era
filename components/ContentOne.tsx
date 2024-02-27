@@ -47,7 +47,7 @@ export default function ContentOne() {
               In the first term, fiscal space was created through the adoption
               of fuel prices that reflected market levels which helped finance
               infrastructure spending greater than during the final term of
-              Jokowi&apos; predecessor.
+              Jokowi&apos;s predecessor.
             </p>
           </div>
 
