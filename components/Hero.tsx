@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
+import Link from "next/link";
 
 export default function Hero() {
   useEffect(() => {
@@ -43,7 +44,7 @@ export default function Hero() {
                 the first term and the second term characterised by business
                 environment reform and the pandemic.
               </p>
-              <button className="flex">
+              <a href="#SectionOne" className="flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 text-white animate-bounce" // Changed arrow color to white
@@ -62,7 +63,7 @@ export default function Hero() {
                   Explore
                 </span>{" "}
                 {/* Changed text to "Explore" */}
-              </button>
+              </a>
             </div>
             {/* Image aligned to the bottom right */}
             <div className="relative md:w-1/2 h-full" data-aos="fade-left">

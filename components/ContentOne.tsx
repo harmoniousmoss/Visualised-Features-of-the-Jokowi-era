@@ -37,8 +37,8 @@ export default function ContentOne() {
   }, []);
 
   return (
-    <div className="bg-slate-50">
-      <div className="py-10 px-6 lg:px-24">
+    <div id="SectionOne" className="bg-slate-50">
+      <div className="pt-24 px-6 lg:px-24">
         {/* Background Wrapper */}
         <div className="chart-box" data-aos="fade-up">
           {/* Left Column */}

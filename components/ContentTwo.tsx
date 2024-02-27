@@ -36,7 +36,7 @@ export default function ContentTwo() {
 
   return (
     <div className="bg-slate-50">
-      <div className="py-10 px-6 lg:px-24">
+      <div className="pt-20 px-6 lg:px-24">
         <div className="chart-box" data-aos="fade-up">
           <div className="w-full md:w-4/12 px-4">
             <p className="chart-content">
