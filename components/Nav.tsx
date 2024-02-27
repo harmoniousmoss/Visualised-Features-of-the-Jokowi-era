@@ -15,10 +15,13 @@ export default function Nav() {
         />
       </div>
       <div className="lg:px-24 lg:py-2 pr-6">
-        <button className="flex items-center bg-white rounded-full px-3 py-2">
+        <a
+          href="https://newsletter.prospera.or.id"
+          className="flex items-center bg-white rounded-full px-3 py-2"
+        >
           <AiOutlineHome className="h-5 w-5 text-slate-900" />
           <span className="ml-2 text-slate-900 text-sm">Home</span>
-        </button>
+        </a>
       </div>
     </nav>
   );
